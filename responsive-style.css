@@ -1,0 +1,32 @@
+@media (max-width:1191px) {
+    .cart-p, .seller-p{
+        display: none;
+    }
+    .main{
+        margin: 0 7vw;
+    }
+    .space{
+        width: 10px;
+    }
+    .cart, .seller, .three-dot{
+        width: 40px;
+    }
+}
+
+@media (max-width:769px) {
+    .search-container, .down-arrow, .three-dot, .seller{
+        display: none;
+    }
+    .bar, .download{
+        display: flex;
+    }
+    .main{
+        padding: 1px 17vw;
+    }
+    .right-content{
+        margin-left: 120px;
+    }
+    .login{
+        width: 70px;
+    }
+}
